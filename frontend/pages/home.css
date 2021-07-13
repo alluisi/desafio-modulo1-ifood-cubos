@@ -1,0 +1,99 @@
+.hero {
+    width: 1110px;
+    height: 600px;
+    background-image: url('assets/home/image-homepage-hero.jpg');
+    background-size: cover;
+    margin: 0 auto 150px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.apresentacao {
+    width: 445px;
+    height: 357px;
+    background-color: #FAFAFA;
+}
+
+.p-apresentacao {
+    padding: 30px 25px 15px;
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #33323D;
+}
+
+.apresentacao__btn {
+    width: 200px;
+    height: 48px;
+    background: #203A4C;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.apresentacao__img {
+    width: 20px;
+    height: 20px;
+}
+
+.apresentacao__span {
+    text-decoration: none;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.sobre {
+    width: 1110px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.img-sobre {
+    width: 555px;
+    height: 600px;
+}
+
+.sobre-mim {
+    width: 555px;
+    height: 600px;
+    display: flex;
+    margin: 50px 40px 25px 100px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobre-mim__h {
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #33323D;
+    margin-bottom: 28px;
+}
+
+.sobre-mim__p {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    margin-bottom: 24px;
+}
+
+.sobre-mim__btn {
+    text-decoration: none;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #33323D;
+    width: 204px;
+    height: 48px;
+    border: 1px solid #33323D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

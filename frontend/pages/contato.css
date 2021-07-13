@@ -1,0 +1,95 @@
+.entre-em-contato {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.linha {
+    width: 1110px;
+    height: 1px;
+    background: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.15;
+    margin-bottom: 48px;
+}
+
+.texto {
+    display: flex;
+}
+
+.titulo {
+    width: 350px;
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #33323D;
+}
+
+.informacoes {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    margin-left: 125px;
+}
+
+.informacoes__imagens {
+    margin: 54px 15px 48px 0px;
+}
+
+.pagina-contato {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.formulario {
+    display: flex;
+    margin-bottom: 109px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    margin-left: 125px;
+}
+
+.label {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 30px;
+    color: #33323D;
+    margin-bottom: 8px;
+}
+
+.input-menor {
+    width: 635px;
+    height: 48px;
+    background: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    margin-bottom: 24px;
+}
+
+.input-maior {
+    width: 635px;
+    height: 96px;
+    background: #33323D;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    margin-bottom: 24px;
+}
+
+.input-btn {
+    text-decoration: none;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+    width: 200px;
+    height: 48px;
+    background: #203A4C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
