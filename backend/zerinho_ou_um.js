@@ -61,59 +61,59 @@ Herman
 */
 
 function solucao(jogadores) {
-    let jogador0 = "";
-    let jogador1 = "";
-    let jogou0 = 0;
-    let jogou1 = 0;
-    for (i = 0; i < jogadores.length; i++) {
-        if (jogadores[i].jogada === 0) {
-            jogou0++
-            jogador0 = jogadores[i].nome;
-        } else {
-            jogou1++
-            jogador1 = jogadores[i].nome
-        }
-    }
-    if (jogou0 === 1) {
-        console.log(jogador0);
-    } else if (jogou1 === 1) {
-        console.log(jogador1);
+  let jogador0 = "";
+  let jogador1 = "";
+  let jogou0 = 0;
+  let jogou1 = 0;
+  for (i = 0; i < jogadores.length; i++) {
+    if (jogadores[i].jogada === 0) {
+      jogou0++
+      jogador0 = jogadores[i].nome;
     } else {
-        console.log("NINGUEM")
+      jogou1++
+      jogador1 = jogadores[i].nome
     }
+  }
+  if (jogou0 === 1) {
+    console.log(jogador0);
+  } else if (jogou1 === 1) {
+    console.log(jogador1);
+  } else {
+    console.log("NINGUEM")
+  }
 }
 
 solucao([
-    {
-        "nome": "Herman",
-        "jogada": 1
-    },
-    {
-        "nome": "Rhodes",
-        "jogada": 0
-    },
-    {
-        "nome": "Beach",
-        "jogada": 0
-    },
-    {
-        "nome": "Laurel",
-        "jogada": 0
-    },
-    {
-        "nome": "Beatrice",
-        "jogada": 0
-    },
-    {
-        "nome": "Alison",
-        "jogada": 0
-    },
-    {
-        "nome": "Saundra",
-        "jogada": 0
-    },
-    {
-        "nome": "Klein",
-        "jogada": 0
-    }
+  {
+    "nome": "Herman",
+    "jogada": 1
+  },
+  {
+    "nome": "Rhodes",
+    "jogada": 0
+  },
+  {
+    "nome": "Beach",
+    "jogada": 0
+  },
+  {
+    "nome": "Laurel",
+    "jogada": 0
+  },
+  {
+    "nome": "Beatrice",
+    "jogada": 0
+  },
+  {
+    "nome": "Alison",
+    "jogada": 0
+  },
+  {
+    "nome": "Saundra",
+    "jogada": 0
+  },
+  {
+    "nome": "Klein",
+    "jogada": 0
+  }
 ]);
